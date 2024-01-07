@@ -1,0 +1,2 @@
+add_library(my_lib_include INTERFACE)
+target_include_directories(my_lib_include INTERFACE .)
